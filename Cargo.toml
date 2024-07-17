@@ -1,0 +1,19 @@
+[package]
+name = "egui_title_bars"
+authors = ["@invisageable"]
+edition = "2021"
+license = "APACHE — MIT"
+repository = "https://github.com/invisageable/egui_title_bars"
+version = "0.0.0"
+
+[dependencies]
+# external:crates.
+eframe = { version = "0.28" }
+env_logger = "0.11.3"
+
+[profile.release]
+codegen-units = 1
+debug = true
+lto = true
+opt-level = 3
+strip = true
