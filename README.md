@@ -12,5 +12,5 @@
 
 <p align="center">
   <img width="400" src="./assets/egui-title-bar-macos-left.png" />
-  <img width="400" src="./assets/egui-title-bar-macos-left.png" />
+  <img width="400" src="./assets/egui-title-bar-macos-right.png" />
 </p>
